@@ -1,9 +1,7 @@
-.my-cust-nav { 
-
-
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    color: seagreen;
+#my-logo {
+    margin-right: 0.5rem;
+}
+.navbar{ 
+    height: 7rem;
 
 }
