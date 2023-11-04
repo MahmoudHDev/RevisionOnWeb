@@ -4,6 +4,10 @@
 .navbar{ 
     height: 7rem;
 }
+.nav-link, .navbar-brand { 
+    font-weight: 1000;
+    font-size: 1.5rem;
+}
 
 .first-scene { 
     padding-top: 7%;
