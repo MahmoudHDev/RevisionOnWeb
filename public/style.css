@@ -12,12 +12,21 @@
 .first-scene { 
     padding-top: 7%;
 }
+/* Carousal */
+
+/* .carousel-inner > img { 
+    /* height: 40%;
+    width: 80%; }
+*/
+
+
 
 /* Footer */
 .social-icons-imgs{
     width: 40px;
     height: 40px;
 }
+
 footer{ 
     margin-top: 10%;
 }
