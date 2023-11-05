@@ -23,10 +23,15 @@ app.get('/', (req,res) => {
     
 });
 
-app.post('/', (req,res) => {
-
+app.get('/about', (req,res) => {
+    res.render("about")
+    
 });
 
+app.get('/projects', (req,res) => {
+    res.render("projects")
+    
+});
 app.listen(port, () => { 
     console.log("server started listening.")
 })
