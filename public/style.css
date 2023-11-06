@@ -3,30 +3,22 @@
 }
 .navbar{ 
     height: 7rem;
+
 }
+
+
 .nav-link, .navbar-brand { 
     font-weight: 1000;
     font-size: 1.5rem;
 }
-
-.first-scene { 
-    padding-top: 7%;
-}
+body {
+    padding-top: 8rem; /* Height of the navbar */
+  }
+  
 /* Carousal */
-
-.carousel-inner > img { 
-    object-fit: fill;
-}
-
-
-
 
 /* Footer */
 .social-icons-imgs{
     width: 40px;
     height: 40px;
-}
-
-footer{ 
-    margin-top: 10%;
 }
