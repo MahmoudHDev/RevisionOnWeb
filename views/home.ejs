@@ -31,7 +31,7 @@
                         <img src="/public/imgs/home/xcode-wallpaper.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Third slide label</h5>
-                            <p>Some representative  placeholder content for the third slide.</p>
+                            <p>Some representative placeholder content for the third slide.</p>
                         </div>
                     </div>
                 </div>
@@ -48,6 +48,40 @@
             </div>
         </div>
     </section>
+
+
+    <!-- form -->
+    <section>
+        <div class="container col-5 my-5">
+            <form action="/" method="post">
+
+                <div class="mb-3">
+                    <label for="username">Username</label>
+                    <input type="text" name="usernameText" id="username" placeholder="Example1-23" class="form-control">
+                </div>
+
+                <div class="mb-3">
+                    <label for="email">Email</label>
+                    <input type="email" name="emailText" id="email" placeholder="Email" class="form-control">
+                </div>
+
+                <div class="mb-3">
+                    <label for="password">Password</label>
+                    <input type="password" name="passwordText" id="password" placeholder="Password" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label for="confirm-pass">Re-type Password</label>
+                    <input type="password" name="confimrPassText" id="confirm-pass" placeholder="Re-type Password" class="form-control">
+                </div>
+
+                <button type="submit" class="btn btn-primary">Register</button>
+            </form>
+
+
+
+        </div>
+    </section>
+
 
 
     <%- include('partials/footer'); -%>

@@ -17,12 +17,17 @@ app.set('view engine', 'ejs');
 
 app.use('/public', express.static(path.join(__dirname, "public")));
 
-
+// Home
 app.get('/', (req,res) => {
     res.render( __dirname + '/views/home.ejs')
     
 });
 
+app.post('/', (req,res)=> { 
+    console.log(req.body);
+});
+
+// About
 app.get('/about', (req,res) => {
     res.render("about")
     

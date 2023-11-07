@@ -3,9 +3,7 @@
 }
 .navbar{ 
     height: 7rem;
-
 }
-
 
 .nav-link, .navbar-brand { 
     font-weight: 1000;
@@ -16,6 +14,12 @@ body {
   }
   
 /* Carousal */
+
+/* Form */
+
+form {
+    font-family: 'Open Sans', sans-serif;
+}
 
 /* Footer */
 .social-icons-imgs{
