@@ -23,16 +23,20 @@ app.get('/', (req, res) => {
 app.post('/', (req, res) => {
     console.log(req.body);
     const body = req.body;
-    allfilled(body.usernameText, body.emailText, body.passwordText)
+    if (allfilled(body.usernameText, body.emailText, body.passwordText) === true) {
+        console.log('procced');
+    } else {
+        console.log('dont procced');
+
+    }
 });
 
 
-var allfilled = function (user, email, pass) { 
+var allfilled = function (user, email, pass) {
     console.log(user, email, pass);
-    if (user.length === 0) { 
+    if (user.length === 0) {
         console.log("String is empty");
-
-    }else{ 
+    } else {
         console.log("proceed to next step");
     }
     console.log(user.length);
