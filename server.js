@@ -28,6 +28,7 @@ app.post('/', (req, res) => {
         res.render('success-reg.ejs');
     } else {
         console.log('dont procced');
+        
         res.redirect('/');
     }
 });
