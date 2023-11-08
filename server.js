@@ -25,10 +25,10 @@ app.post('/', (req, res) => {
     const body = req.body;
     if (allfilled(body.usernameText, body.emailText, body.passwordText) === true) {
         console.log('procced');
-        res.redirect('/success-reg')
+        res.render('success-reg.ejs');
     } else {
         console.log('dont procced');
-
+        res.redirect('/');
     }
 });
 
