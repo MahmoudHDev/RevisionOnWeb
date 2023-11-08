@@ -25,6 +25,7 @@ app.post('/', (req, res) => {
     const body = req.body;
     if (allfilled(body.usernameText, body.emailText, body.passwordText) === true) {
         console.log('procced');
+        res.redirect('/success-reg')
     } else {
         console.log('dont procced');
 
@@ -36,10 +37,11 @@ var allfilled = function (user, email, pass) {
     console.log(user, email, pass);
     if (user.length === 0) {
         console.log("String is empty");
+        return false;
     } else {
         console.log("proceed to next step");
+        return true;
     }
-    console.log(user.length);
 };
 
 // About
